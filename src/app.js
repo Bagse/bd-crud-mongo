@@ -10,7 +10,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-const FRONTEND_URL = process.env.FRONTEND_URL
+const FRONTEND_URL = process.env.FRONTEND_URL;
+
 
 app.use(
   cors({
